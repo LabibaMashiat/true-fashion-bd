@@ -27,7 +27,7 @@ const CompanyOverview = () => {
         Let us be your reliable partner in the ever-evolving fashion industry.
       </p>
       <Link to="/about" className="btn btn-primary mt-6">
-        Learn More
+        Learn More About Us
       </Link>
     </div>
   </div>

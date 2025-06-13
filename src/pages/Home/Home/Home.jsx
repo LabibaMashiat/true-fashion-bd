@@ -6,6 +6,7 @@ import OurProducts from "../OurProducts/OurProducts";
 import QuoteSection from "../QuoteSection/QuoteSection";
 import Sustainability from "../Sustainability/Sustainability";
 import WhyChooseUs from "../WhyChooseUs/WhyChooseUs";
+import WovenFabricSources from "../WovenFabricSources/WovenFabricSources";
 
 const Home = () => {
     return (
@@ -17,6 +18,7 @@ const Home = () => {
            <CompanyOverview></CompanyOverview>
            <CoreServices></CoreServices>
            <OurProducts></OurProducts>
+           <WovenFabricSources></WovenFabricSources>
            <WhyChooseUs></WhyChooseUs>
            <GlobalReach></GlobalReach>
            <Sustainability></Sustainability>
