@@ -5,7 +5,7 @@ const Contact = () => {
     return (
         <div>
             <Helmet>
-             <title>Contact | TRUE FASHION BD</title>
+             <title> Contact | TRUE FASHION BD</title>
            </Helmet>
         <div>
             <ContactInfo></ContactInfo>
