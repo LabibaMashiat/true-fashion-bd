@@ -6,20 +6,32 @@ const Navbar = () => {
     <div className="w-full">
       <div className="navbar fixed top-0 z-50 bg-blue-800 shadow-sm py-4 px-6 flex items-center justify-between">
         {/* Logo and Branding */}
-        <div className="flex items-center gap-3">
-          <div className="w-20">
-            <img src={logo} alt="logo" className="object-cover w-full rounded" />
-          </div>
-          <div className="">
-            <a
-              href="/"
-              className="font-semibold text-white text-sm  md:text-xl"
-            >
-              TRUE FASHION BD
-            </a>
-            
-          </div>
-        </div>
+<div className="flex items-center gap-3">
+  <div className="w-20">
+    <img src={logo} alt="logo" className="object-cover w-full rounded" />
+  </div>
+  <div className="leading-tight">
+    <a
+      href="/"
+      className="font-semibold text-white text-sm md:text-xl block"
+    >
+      True Fashion BD
+    </a>
+   <span className="text-xs text-gray-200 block">
+  A sister concern of{" "}
+  <a
+    href="https://www.tradefastint.com"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="font-semibold hover:text-white"
+  >
+    Trade Fast International
+  </a>.
+</span>
+
+
+  </div>
+</div>
 
         {/* Mobile Dropdown */}
         <div className="lg:hidden dropdown dropdown-end relative">
