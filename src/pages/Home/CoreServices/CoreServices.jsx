@@ -35,11 +35,6 @@ const CoreServices = () => {
         </div>
       </div>
 
-      <div className="text-center mt-10">
-        <a href="/about" className="btn btn-primary">
-          Learn More About Our Services
-        </a>
-      </div>
     </section>
   );
 };
