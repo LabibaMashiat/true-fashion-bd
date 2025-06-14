@@ -1,4 +1,4 @@
-import React from 'react';
+import { Helmet } from 'react-helmet';
 import Banner from '../Banner/Banner';
 import ProductCategories from '../ProductCategories/ProductCategories';
 import KnitwearSection from '../KnitwearSection/KnitwearSection';
@@ -9,6 +9,10 @@ import SweatersSection from '../SweatersSection/SweatersSection';
 
 const Products = () => {
     return (
+       <div>
+         <Helmet>
+             <title>Products | TRUE FASHION BD</title>
+           </Helmet>
         <div>
             <Banner></Banner>
             <ProductCategories></ProductCategories>
@@ -18,6 +22,7 @@ const Products = () => {
             <BoxerAndSwimwearSection></BoxerAndSwimwearSection>
             <SweatersSection></SweatersSection>
         </div>
+       </div>
     );
 };
 

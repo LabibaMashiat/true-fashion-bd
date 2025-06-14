@@ -1,4 +1,4 @@
-import React from 'react';
+import { Helmet } from "react-helmet";
 import Banner from '../Banner/Banner';
 import WhoWeAre from '../WhoWeAre/WhoWeAre';
 import VisionMission from '../VissionMission/VissionMission';
@@ -8,6 +8,10 @@ import WhatSetsUsApart from '../WhatSetsUsApart/WhatSetsUsApart';
 
 const About = () => {
     return (
+       <div>
+         <Helmet>
+             <title>About | TRUE FASHION BD</title>
+           </Helmet>
         <div>
             <Banner></Banner>
             <div className='mt-12'>
@@ -18,6 +22,7 @@ const About = () => {
             <VisionMission></VisionMission>
             </div>
         </div>
+       </div>
     );
 };
 
